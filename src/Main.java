@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int[] num = getinput();
-        SortArray(num);
+        Sort(num);
     }
     private static int[] getinput() {
         Scanner scanner = new Scanner(System.in);
@@ -26,7 +26,7 @@ public class Main {
 
         return num;
     }
-    private static void SortArray(int[] array) {
+    private static void Sort(int[] array) {
         Arrays.sort(array);
         for (int i = 0; i <= array[0]; i++) {
             System.out.println(array[i]);
